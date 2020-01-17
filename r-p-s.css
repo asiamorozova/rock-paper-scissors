@@ -1,0 +1,36 @@
+
+body{
+    color: whitesmoke;
+    background-color: black;
+}
+h1{
+    text-align: left;
+    font-family: Times;
+    text-shadow: thistle;
+    text-shadow: cornflowerblue;
+   
+}
+p {
+    text-align: left;
+    font-family: 'Times New Roman';
+    color: plum;
+}
+div{
+    text-align: left;
+
+
+}
+ul{
+    text-align: left;
+}
+
+button {
+    width: 65px;
+    border: 1px black solid;
+    background-color: plum;
+    border-radius: 5px;
+  }
+  
+.hidden{
+    display: none;
+}
