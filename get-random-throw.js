@@ -7,8 +7,8 @@ export default function getRandomThrow() {
     if (randomNumber === 1) {
         return 'rock';
     } else if (randomNumber === 2) {
-        return 'scissors';
-    } else {
         return 'paper';
+    } else {
+        return 'scissors';
     }
 }

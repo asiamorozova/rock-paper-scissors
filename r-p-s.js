@@ -1,8 +1,8 @@
-import getRandomThrow from './get-random-throw.js'
-import checkResults from './checkResults.js'
+import getRandomThrow from './get-random-throw.js';
+import checkResults from './checkResults.js';
 
 const playButton = document.getElementById('selection');
-const resentButton = document.getElementById('reset');
+// const resetButton = document.getElementById('reset');
 const totalWins = document.getElementById('total-wins');
 const totalLosses = document.getElementById('total-losses');
 const totalDraws = document.getElementById('total-draws');
@@ -12,6 +12,7 @@ const resultsContainer = document.getElementById('results-container');
 let wins = 0;
 let losses = 0;
 let draws = 0;
+
 
 
 playButton.addEventListener('click', () => {
